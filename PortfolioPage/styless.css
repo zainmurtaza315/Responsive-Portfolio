@@ -1,0 +1,73 @@
+.header {
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: url("https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1519989850/coding_dtvakc");
+}
+
+.top-nav {
+  background-color: darkgrey;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+.top-nav a {
+  background-color: slateblue;
+  color: white;
+  width: 100%;
+  height: 100%;
+  border: dotted;
+  text-align: center;
+}
+
+.top-nav a:hover {
+  background-color: green;
+  color: black;
+}
+
+.wholepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.inf {
+  text-align: center;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 980px) {
+  .wholepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .wholepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .zain2 {
+    width: 100%;
+  }
+  .leftside {
+    width: 100%;
+  }
+}
